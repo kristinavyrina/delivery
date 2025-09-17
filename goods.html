@@ -15,8 +15,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link
     rel="stylesheet"
-    href="style.css"
+    href="./css/style.css"
   >
+  <script src="./script/index.js" defer></script>
   <title>Delivery Food</title>
 
 </head>
@@ -41,7 +42,7 @@
             Войти
 
           </button>
-          <button class="btn btn-outline"
+          <button class="btn btn-outline" id="card-button"
             type="button"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -59,8 +60,8 @@
   <section class="products">
     <div class="container">
 
-      <div class="products-wrapper">
-        <div class="products-card">
+      <div class="products-wrapper" id="goods-container">
+        <a class="products-card">
           <div class="products-card__image">
             <img
               src="./images/goods/good-1.jpg"
@@ -90,7 +91,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </a>
         <div class="products-card">
           <div class="products-card__image">
             <img

@@ -15,11 +15,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link
     rel="stylesheet"
-    href="style.css"
+    href="./css/style.css"
   >
+  <script src="./script/index.js" defer></script>
   <title>Delivery Food</title>
-
 </head>
+
 <body>
 <div class="page-wrapper">
   <header class="header">
@@ -41,7 +42,7 @@
             Войти
 
           </button>
-          <button class="btn btn-outline"
+          <button class="btn btn-outline" id="card-button"
             type="button"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -78,7 +79,7 @@
           placeholder="Поиск блюд и ресторанов"
         />
       </div>
-      <div class="products-wrapper">
+      <div class="products-wrapper" id="rest-container">
         <a href="./goods.html" class="products-card">
           <div class="products-card__image">
             <img
